@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leyougateway" />
+        <module name="leyoucommon" />
+        <module name="comleyouinterface" />
+        <module name="comleyouservice" />
+        <module name="leyouregistry" />
+        <module name="leyouupload" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyouiteminterface" target="1.8" />
+      <module name="leyouitemservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comleyouinterface" options="-parameters" />
+      <module name="comleyouservice" options="-parameters" />
+      <module name="leyoucommon" options="-parameters" />
+      <module name="leyougateway" options="-parameters" />
+      <module name="leyouitem" options="-parameters" />
+      <module name="leyouiteminterface" options="-parameters" />
+      <module name="leyouitemservice" options="-parameters" />
+      <module name="leyouregistry" options="-parameters" />
+      <module name="leyouupload" options="-parameters" />
+    </option>
+  </component>
+</project>
